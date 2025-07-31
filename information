@@ -1,0 +1,26 @@
+Now this is a first mearn project. So we will write all the steps from starting to end.
+
+Step1 : what are the tools we are going to use
+frontend :- React  tailwind zusstand dc_ui
+backend:- mongo express node socket.ioe
+
+Step2 : we need to create two sperate forlders named backend and frontend
+
+Step3 : go to frontend folder and create a react app
+comands: `npm create vite@latest` . //for creating in the same folder
+
+step4 : go to the backend and run comand
+`npm init -y` // this creates the  package.json file. Which is used to store the metadata of the project
+
+step5 : run the comand to install all the dependies used here
+`npm i express mongoose dotenv jsonwebtoken bcryptjs cookie-parser cloudinary socket.io` // all this dependies will be used in this project. In above syntex the i refers to install.
+
+Step6 : install a dev dependency nodemon
+`npm i nodemon -D` // here D represent dev dependence
+
+step7 : we create "index.js" file and work on it,
+And after that we go to the package.json file and rewrite the script function as `"dev" : "nodemon index.js"` which sais that the site is running on the nodemon and the file name is index.js
+after that we run `npm run dev`this comand in the backend folder and the output is the index,js file
+
+
+ 
